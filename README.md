@@ -1,2 +1,2 @@
-# pillar-pinturas João Victor/Richard/Mariana 
+# pillar-pinturas
 isso é um teste
