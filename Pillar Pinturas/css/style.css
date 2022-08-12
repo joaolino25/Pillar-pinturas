@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0%  ;
+}
+
+
+.sombra a:hover{
+    top:-2px;
+    box-shadow:2px 2px rgb(248, 190, 0);
+       
+}
+
+.bg-port {
+    background-image: url(../imgs/casa2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+
+
+.flex-container { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26vh;
+
+}
+
+.flex-container .forms {
+    margin-right: 15vw;
+    height: 30vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.flex-container .texto {
+    width: 30vw;
+    height: 30vh;
+    text-align: center; 
+    margin-left: 15vw;
+    padding: 10px;
+    margin-top: 18vh;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(248, 190, 0);
+}
+
+
+.icon-effect{
+    overflow: hidden;
+}
+
+.icon-effect svg {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.icon-effect svg :hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
+}
